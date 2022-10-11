@@ -16,12 +16,16 @@ const Question = ({ ques, idx }) => {
 
     }
 
+    const showAnswer = (answer) => {
+        toast.info(answer, { autoClose: 2000, theme: "colored" });
+    }
+
     return (
 
         <div className=' card card-compact bg-base-100 shadow-xl  bg-gray-200 py-5 px-10 w-4/6 mx-auto'>
             <div className='flex justify-between mb-6'>
                 <h2 className='text-xl font-semibold text-gray-600 '> <span className='text-indigo-600 pr-2'>Quiz-{idx + 1}:</span> {question.substring(3, question.length - 4)}</h2>
-                <EyeIcon className='h-5 w-5 text-indigo-400 ml-6 hover:text-indigo-600'></EyeIcon>
+                <EyeIcon onClick={() => showAnswer(correctAnswer)} className='h-5 w-5 text-indigo-400 ml-6 hover:text-indigo-600'></EyeIcon>
             </div>
 
             <div className='grid grid-cols-2 gap-5'>
