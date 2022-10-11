@@ -9,7 +9,7 @@ const Statistics = () => {
             <div>
                 <h1 className='text-5xl font-bold text-gray-700 text-center my-5'>Bar Chart on data</h1>
                 <p className='p-6 text-gray-600'>The bar graph given below shows the total quiz (in number) from four web development fundamentals subjects.</p>
-                <ResponsiveContainer width="100%" height="70%">
+                <ResponsiveContainer width="99%" height="70%">
                     <BarChart width={700} height={400} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="name" />
