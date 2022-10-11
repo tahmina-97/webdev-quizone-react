@@ -10,7 +10,7 @@ const QuizDetails = () => {
     return (
         <div>
             <h1 className='text-center text-5xl font-bold text-gray-700 p-4 mb-14'>Quiz on {name}</h1>
-            <div className=' grid grid-cols-1 justify-items-center gap-5'>
+            <div className=' grid grid-cols-1 justify-items-center gap-10'>
                 {
                     questions.map((ques, idx) => <Question
                         key={ques.id}
