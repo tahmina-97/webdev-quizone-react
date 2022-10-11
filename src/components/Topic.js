@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowLongRightIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const Topic = ({ topic }) => {
     const { id, name, logo, total } = topic;
@@ -12,10 +13,13 @@ const Topic = ({ topic }) => {
                     <h2 className="text-3xl font-semibold tracking-wide">{name}</h2>
                     <p className='font-semibold'>Quiz : <span className=' font-bold text-gray-800 '>{total}</span></p>
                 </div>
-                <button type="button" className="bg-indigo-600 text-white font-semibold flex justify-between items-center w-full p-3 tracking-wide rounded-md">
-                    <div>Start Quiz</div>
-                    <ArrowLongRightIcon className='h-8 w-8'></ArrowLongRightIcon>
-                </button>
+                <Link to={`/quiz/${id}`}>
+                    <button type="button" className="bg-indigo-600 text-white font-semibold flex justify-between items-center w-full p-3 tracking-wide rounded-md">
+                        <div>Start Quiz</div>
+                        <ArrowLongRightIcon className='h-8 w-8'></ArrowLongRightIcon>
+                    </button>
+                </Link>
+
             </div>
         </div>
     );
