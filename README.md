@@ -26,7 +26,7 @@ Tailwind Components ->
 [Mamba UI](https://www.mambaui.com/)
 [Kitwind](https://kitwind.io/products/kometa/components)
 
-## Other Resources
+## QUIZ API LINK:
 
-Icon -> [FlatIcon](https://www.flaticon.com/)
-Product Photos -> [Freepic](https://www.freepik.com/)
+Get all quiz topics: ->[Link](https://openapi.programming-hero.com/api/quiz)
+Get topic details by topic id: -> [Link](https://openapi.programming-hero.com/api/quiz/1)
