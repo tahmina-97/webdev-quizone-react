@@ -12,7 +12,7 @@ const Header = () => {
                     title='Webdev Quizone'
                     className='inline-flex items-center'
                 >
-                    <img className='h-8 w-8' src={logo} alt="coding-logo" />
+                    <img className='h-10 w-10' src={logo} alt="coding-logo" />
                     <span className='ml-2 text-xl font-bold tracking-wide text-indigo-800 uppercase'>
                         Webdev Quizone
                     </span>
@@ -80,7 +80,7 @@ const Header = () => {
                                             title='Company'
                                             className='inline-flex items-center'
                                         >
-                                            <img className='h-8 w-8' src={logo} alt="coding-logo" />
+                                            <img className='h-10 w-10' src={logo} alt="coding-logo" />
                                             <span className='ml-2 text-xl font-bold tracking-wide text-indigo-800 uppercase'>
                                                 Webdev Quizone
                                             </span>
