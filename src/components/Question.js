@@ -38,13 +38,6 @@ const Question = ({ ques, idx }) => {
                     ></Option>)
                 }
             </div>
-
-
-
-
-
-
-
         </div>
     );
 };

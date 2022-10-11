@@ -24,7 +24,10 @@ Documentation Link -> [Link](https://reactrouter.com/en/main/start/overview)
 
 Tailwind Components ->
 [Mamba UI](https://www.mambaui.com/)
-[Kitwind](https://kitwind.io/products/kometa/components)
+[Daisy UI](https://daisyui.com/components/)
+
+Icons ->
+[Heroicons](https://heroicons.com/)
 
 ## QUIZ API LINK:
 
