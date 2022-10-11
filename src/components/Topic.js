@@ -15,7 +15,7 @@ const Topic = ({ topic }) => {
                 </div>
                 <Link to={`/quiz/${id}`}>
                     <button type="button" className="bg-indigo-600 text-white font-semibold flex justify-between items-center w-full p-3 tracking-wide rounded-md">
-                        <div>Start Quiz</div>
+                        <div>Show Quiz</div>
                         <ArrowLongRightIcon className='h-8 w-8'></ArrowLongRightIcon>
                     </button>
                 </Link>
