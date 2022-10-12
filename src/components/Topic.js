@@ -14,7 +14,7 @@ const Topic = ({ topic }) => {
                     <p className='font-semibold'>Quiz : <span className=' font-bold text-gray-800 '>{total}</span></p>
                 </div>
                 <Link to={`/quiz/${id}`}>
-                    <button type="button" className="bg-indigo-600 text-white font-semibold flex justify-between items-center w-full p-3 tracking-wide rounded-md">
+                    <button type="button" className="bg-indigo-600 text-white font-semibold flex justify-between items-center w-full p-3 tracking-wide rounded-md hover:bg-indigo-800">
                         <div>Show Quiz</div>
                         <ArrowLongRightIcon className='h-8 w-8'></ArrowLongRightIcon>
                     </button>

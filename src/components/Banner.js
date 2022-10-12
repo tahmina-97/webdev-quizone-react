@@ -15,12 +15,12 @@ const Banner = () => {
                         </p>
                         <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                             <Link to='/'>
-                                <button className="px-8 py-3 text-lg font-semibold rounded  bg-indigo-600 text-white dark:bg-violet-400 dark:text-gray-900">Get Started</button>
+                                <button className="px-8 py-3 text-lg font-semibold rounded  bg-indigo-600 text-white hover:bg-indigo-800 dark:bg-violet-400 dark:text-gray-900">Get Started</button>
                             </Link>
                         </div>
                     </div>
                     <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 lg:mr-20">
-                        <img src="https://www.mambaui.com/assets/svg/Business_SVG.svg" alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
+                        <img src="https://www.mambaui.com/assets/svg/Business_SVG.svg" alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 w-96" />
                     </div>
                 </div>
             </section>
