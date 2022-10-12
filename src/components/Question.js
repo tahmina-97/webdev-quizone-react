@@ -6,15 +6,7 @@ import Option from './Option';
 
 const Question = ({ ques, idx }) => {
     const { question, options, correctAnswer, id } = ques;
-    const handleOption = (givenAns) => {
-        if (givenAns !== correctAnswer) {
-            toast.error('Oh no! Wrong Answer!!', { autoClose: 2000, theme: "colored" })
-        }
-        else {
-            toast.success('Yes! You are Right!!', { autoClose: 2000, theme: "colored" })
-        }
 
-    }
 
     const showAnswer = (answer) => {
         toast.info(answer, { autoClose: 2000, theme: "colored" });
@@ -32,8 +24,9 @@ const Question = ({ ques, idx }) => {
                 {
                     options.map((option, idx) => <Option
                         key={idx}
+                        correctAnswer={correctAnswer}
                         option={option}
-                        handleOption={handleOption}
+
                         idx={idx}
                     ></Option>)
                 }
